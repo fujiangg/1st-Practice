@@ -1,0 +1,25 @@
+Apa itu Version Control System?
+    Version Control System adalah software yang mengelola versi atau perubahan pada source code projek aplikasi. VCS mencatat semua modifikasi di sebuah database khusus. Jika terjadi sebuah kesalahan, developer bisa melihat kode versi awal untuk memperbaiki kesalahan. 
+    VCS (Version Control System) atau RCS (Revision Control System) atau SCM (Source Code Management) adalah sistem yang mengelola perubahan dari sebuah dokumen, program komputer, website, dan Kumpulan informasi lain. GIT merupakan salah satu VCS.
+
+Problem Sehingga Harus Menggunakan Version Control System
+    1.	Kesulitan membuat versi atau mengelola perubahan file
+    2.	Sulit berkolaborasi karena file di setiap individu tersimpan di device masing-masing
+    3.	Sulit Sharing
+
+Kegunaan Version Control System
+    1.	Dapat menyimpan rekaman / snapshot perubahan pada source code
+    2.	Memungkinkan berkolaborasi dengan lebih baik
+    3.	Mengetahui siapa yang melakukan dan kapan perubahan terjadi
+    4.	Memungkinkan kembali ke keadaan sebelum perubahan (checkout)
+    5.	File dapat dibandingkan atau digabungkan
+
+Apa itu GIT? 
+    GIT adalah sebuah software yang dapat melakukan VCS terdistribusi untuk mengelola perubahan file di dalam folder (repository)
+    Git (Group Inclusive Tour) adalah tools yang berfungsi sebagai version control system untuk menjalankan proyek pengembangan software. Tujuan Git adalah untuk mengelola versi source code program dengan menentukan baris serta kode yang akan ditambahkan atau diganti.
+    Git termasuk dalam DVCS (Distributed Version Control System), yang artinya kode tidak hanya memiliki satu tempat penyimpanan sejarah lengkap sebuah software. Di Git, setiap salinan kode kerja juga berperan sebagai repositori yang dapat berisi riwayat lengkap dari semua perubahan. Selain didistribusikan.
+
+GIT vs GitHub
+    GIT merupakakan aplikasi VCS yang diinstal dan dapat digunakan secara offline di dalam device. GIT memungkinkan mengelola perubahan pada source code di komputer sendiri (local).
+    Sedangkan, GITHUB adalah sebuah layanan cloud berupa website untuk menyimpan dan mengelola project atau repository GIT. Sistem pengelolaan yang dapat dilakukan di GIT juga dapat dilakukan di GITHUB (online). Singkatnya, GITHUB adalah website yang didalamnya terdapat GIT. Untuk menggunakan GITHUB tidak perlu menginstal GIT terlebih dahulu.
+    GIT dan GITHUB dapat saling bekerja untuk mengirim dan mengambil hasil commit dari repositori untuk disimpan ke dalam GITHUB maupun device local kita. Untuk mengirimkan repo dari GIT ke GITHUB menggunakan perintah Push. Sebaliknya, untuk mengambil repo dari GITHUB menggunakan perintah Pull. Untuk melakukan Pull dan Push, jadikan GITHUB sebagai Remote dari repository kita, selanjutnya Clone melalui GIT untuk menyimpan repository tersebut ke dalam device local kita. Barulah Pull dan Push dapat dijalankan.
